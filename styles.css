@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1400px; /* Increased width */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-text {
+    flex: 0 0 50%; /* Half of the header width for the text */
+    text-align: right;
+    padding-right: 20px; /* Add some padding for spacing */
+}
+
+
+
+header {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    background-color: #008080; 
+    color: #fff;
+    padding: 20px 0;
+}
+
+.profile-image-container {
+    flex: 0 0 50%; /* Fixed width for the profile image */
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.profile-image {
+    width: 150px;
+    height: 50%;
+    border-radius: 50%; /* Make the image circular */
+	margin-right: 20px;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #008080;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#contact{
+	background-color: #d4edda;
+	padding: 20px;
+	border-radius: 8px;
+    margin-top: 20px;
+}
+
+#about {
+    background-color: #d4edda;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+#skills {
+    background-color: #d4edda;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#skills h2 {
+    color: #333;
+}
+
+#projects {
+    margin-top: 20px;
+	background-color: #d4edda;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project h3 {
+    color: #333;
+}
+
+.project p {
+    margin-bottom: 20px;
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    .profile-image-container {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+
+    .text-section {
+        flex: 1;
+    }
+}
